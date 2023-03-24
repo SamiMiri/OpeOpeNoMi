@@ -276,13 +276,9 @@ async def spotify(ctx, *, user: discord.Member = None):
 #the Julian function
 @bot.event
 async def kids(ctx):
-    if "All Might" in ctx.message.content.lower():
+    if "1083174478026113185" in ctx.message.content.lower():
         await ctx.send('https://tenor.com/VpGd.gif')
         await bot.process_commands(ctx)
-
-
-
-'''
 
 
 @bot.event
@@ -293,8 +289,10 @@ async def on_message(message):
     if "kids" in message.content:
         await message.channel.send('https://cdn.discordapp.com/attachments/1045825009626664990/1077325491423412304/5DBF34E8-A0F9-4A79-92A6-CB19272D16D8.jpg') # Reply with a mention of the user who said kids
         await message.channel.send('https://media.discordapp.net/attachments/954907778521104454/1088086144824135760/Y2Mate.is_-_Doflamingos_Best_Laugh-nqBxdF7chCQ-720p-1656809970696.mp4')
-        await bot.process_commands(message)
-'''
+
+    if "<@1083174478026113185>" in message.content:
+        await message.channel.reply(embed=discord.Embed(image_url='https://tenor.com/VpGd.gif')
+
       
 """Literally just a ping command"""
 
