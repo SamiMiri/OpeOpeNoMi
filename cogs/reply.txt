@@ -1,0 +1,33 @@
+import discord
+from discord.ext import commands
+
+class Replies(commands.cog):
+    def __init__(self, bot):
+        self.bot = bot
+    
+    @commands.Cog.listener('on_message')
+    async def message_checker(self, message):
+        phrase_lookup = {
+            for i in 
+        }
+#The ABA, Kids(check), Genshin function section.
+
+    
+    @commands.Cog.listener('on_message')
+    async def message_checker(self, message):
+        
+
+        if randint(1, 25) == 2:
+            """Finds mention of certain strings in messages, and responds with allegedly funny things"""
+            if search(r'?aba|ABA|aba)?', message.content.lower()):
+                await message.reply('The National Suicide & Crisis Lifeline can be contacted by dialing 988')
+            elif search(r'?genshin impact|genshin?', message.content.lower()):
+                await message.reply('https://www.stopitnow.org/advice-column-entry/i-know-a-pedophile-what-should-i-do#:~:text=You%20are%20able%20to%20report,the%20authorities%20for%20potential%20investigation.')
+            elif search(r'skill', message.content.lower()) and message.author.id == 711638694796329084:
+                await message.reply('You should kill yourself')
+            elif search(r'(deep|deepwoken|the deep calls|)', message.content.lower()) and message.author.id != 941122448437432330:
+                await message.reply('The National Suicide & Crisis Lifeline can be contacted by dialing 988')
+            
+                # await message.delete()
+            elif search("@Stephen's Musketeers", message.content.lower()):
+                await message.reply('https://tenor.com/VpGd.gif')
