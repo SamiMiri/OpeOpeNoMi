@@ -276,7 +276,7 @@ async def spotify(ctx, *, user: discord.Member = None):
 #the Julian function
 @bot.event
 async def kids(ctx):
-    if "1083174478026113185" in ctx.message.content.lower():
+    if "1088907414163701810" in ctx.message.content.lower():
         await ctx.send('https://tenor.com/VpGd.gif')
         await bot.process_commands(ctx)
 
